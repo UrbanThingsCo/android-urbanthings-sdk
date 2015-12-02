@@ -1,0 +1,5 @@
+include ':urbanthings-sample'
+include ':urbanthings-gson'
+include ':urbanthings'
+
+rootProject.name = 'urbanthings-root'

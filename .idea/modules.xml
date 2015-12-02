@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/urbanthings/urbanthings.iml" filepath="$PROJECT_DIR$/urbanthings/urbanthings.iml" />
+      <module fileurl="file://$PROJECT_DIR$/urbanthings-gson/urbanthings-gson.iml" filepath="$PROJECT_DIR$/urbanthings-gson/urbanthings-gson.iml" />
+      <module fileurl="file://$PROJECT_DIR$/urbanthings-root.iml" filepath="$PROJECT_DIR$/urbanthings-root.iml" />
+      <module fileurl="file://$PROJECT_DIR$/urbanthings-sample/urbanthings-sample.iml" filepath="$PROJECT_DIR$/urbanthings-sample/urbanthings-sample.iml" />
+    </modules>
+  </component>
+</project>
