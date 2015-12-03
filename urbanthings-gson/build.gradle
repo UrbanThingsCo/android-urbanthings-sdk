@@ -1,5 +1,29 @@
 apply plugin: 'com.android.library'
 
+ext {
+    bintrayRepo = 'maven'
+    bintrayName = 'urbanthings-gson'
+
+    publishedGroupId = 'io.urbanthings'
+    libraryName = 'urbanthings-gson'
+    artifact = 'urbanthings-gson'
+
+    libraryDescription = 'Urban Things Android SDK'
+
+    siteUrl = 'https://github.com/urbanthings/android-urbanthings-sdk'
+    gitUrl = 'https://github.com/urbanthings/android-urbanthings-sdk.git'
+
+    libraryVersion = '0.9.1'
+
+    developerId = 'urbanthings'
+    developerName = 'urbanthings'
+    developerEmail = 'tom@fatattitude.com'
+
+    licenseName = 'The Apache Software License, Version 2.0'
+    licenseUrl = 'http://www.apache.org/licenses/LICENSE-2.0.txt'
+    allLicenses = ["Apache-2.0"]
+}
+
 android {
     compileSdkVersion 23
     buildToolsVersion "23.0.2"
@@ -24,3 +48,6 @@ dependencies {
     compile 'com.google.code.gson:gson:2.4'
     compile project(':urbanthings')
 }
+
+apply from: 'https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle'
+apply from: 'https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle'
