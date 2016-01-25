@@ -25,12 +25,12 @@ We've divided things up in this way so that if your project uses an alternate JS
 The demo app includes these libraries as source code. To use the UrbanThings SDK in your own projects, you should instead use the Android Studio gradle dependencies mechanism. Just add the following to the dependencies section of your app's build.gradle file:
 
 If you would like to include Gson serialisation support (this pulls down BOTH libraries):
-- `compile 'io.urbanthings:urbanthings-gson:0.9.1’`
+- `compile 'io.urbanthings:urbanthings-gson:0.9.2'`
 
 *OR* 
 
 If you would prefer to use an alterate serialisation library, just include the data model:
-- `compile 'io.urbanthings:urbanthings:0.9.1’`
+- `compile 'io.urbanthings:urbanthings:0.9.2'`
 
 ## The Android Demo App
 
