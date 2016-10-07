@@ -46,10 +46,14 @@ public class MainActivity extends AppCompatActivity {
 
     // If you make the bounds too large, # results will be capped at a server defined maximum.
 
-    private static final double MIN_LAT = 51.25399873081391;
-    private static final double MAX_LAT = 51.574375555917875;
-    private static final double MIN_LNG = -2.722232937812805;
-    private static final double MAX_LNG = -2.2484666481614113;
+    private static final double CENTRE_LAT = 51.4575586;
+    private static final double CENTRE_LNG = -2.5982637;
+    private static final double BOUND_BOX_SIZE = 0.21;
+
+    private static final double MIN_LAT = CENTRE_LAT - (BOUND_BOX_SIZE / 2);
+    private static final double MAX_LAT = CENTRE_LAT + (BOUND_BOX_SIZE / 2);
+    private static final double MIN_LNG = CENTRE_LNG - (BOUND_BOX_SIZE / 2);
+    private static final double MAX_LNG = CENTRE_LNG + (BOUND_BOX_SIZE / 2);
 
     private View mListContainer;
     private View mProgressBar;
